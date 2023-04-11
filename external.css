@@ -1,0 +1,134 @@
+.total{
+    display: flex;
+  }
+  
+  body{
+    background-color: rgb(172, 128, 213);
+  }
+  
+  .container {
+      /* border: 4px solid black; */
+      width: 400px;
+      height: 2rem;
+      margin: 40px auto;
+      /* display: flex; */
+      background-color: rgb(33, 33, 255);
+    }
+  
+    div:nth-child(even) {
+      padding: 25px;
+  }
+  
+  .super{
+    display: flex;
+    float:inline-end;
+    margin: -100px;
+    position: relative;
+  }
+  
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50vh solid transparent;
+    border-top: 100px solid rgb(101, 30, 181);
+    align-self: flex-end;
+    padding-right: 200px;
+  }
+  
+    .major{
+      display: flex;
+    }
+  
+    .minor{
+      position: relative;
+      display: flex;
+      float: right;
+  
+    }
+  
+    footer {
+      /* border: 4px solid black; */
+      width: 99%;
+      height: 150px;
+      background-color: rgb(0, 204, 255);
+  }
+  
+  #square {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    background: rgb(0, 255, 106);
+    z-index: 4;
+  }
+  
+  #circle {
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(145, 255, 0);
+    border-radius: 50%;
+    z-index: 3;
+  }
+  
+  #triangle {
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 100px solid rgb(0, 157, 255);
+    z-index: 2;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: relative;
+    top: 40px;
+    left: -35px;
+    /* z-index: 1; */
+  }
+  
+  .shape {
+    width: 250px;
+    height: 250px;
+    background: navy;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 50px;z
+    /* z-index: 3; */
+  }
+  
+  #top-left {
+    width: 148px;
+    height: 147px;
+    background: purple;
+    position: absolute;
+    top: 1px;
+    left:2px;
+    border-top-left-radius: 118px;
+    /* z-index: 2; */
+  }
+  
+  @media (max-width: 1250px) {
+    body {
+      background-color: red;
+    }
+    .container {
+      margin: 1em 2em;
+    }
+    }
+  
+  @media (max-width: 480px) {
+    .form-example{
+      float: right;
+    }
+      }
+    
+  .form-example{
+    padding-left: 500px;
+  }
+  
